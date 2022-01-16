@@ -1,0 +1,54 @@
+1. 
+git init 
+ 
+2. 
+ 
+3.  
+git add . 
+git commit -m "Initial commit" 
+ 
+4.  
+git checkout -b feature1 
+ 
+5. 
+git add . 
+git commit -m "Add dog to list and change moose to mouse" 
+ 
+6. 
+git switch main 
+git add .  
+git commit -m "Change moose to mahmut" 
+ 
+7. 
+git merge feature1 
+git add . 
+git commit -m "Merge feature1 to main" 
+ 
+8. 
+git tag extinct 
+ 
+9. 
+git reset --hard main^ 
+ 
+10. 
+git branch feature2 
+ 
+11. 
+git add . 
+git commit -m "Update animal names with capitalized first letters" 
+ 
+12. 
+git switch feature2 
+git add . 
+git commit -m "Add fix1.txt" 
+git add . 
+git commit -m "Add fix2.txt" 
+
+13. 
+git switch main 
+
+14. 
+git log --all --oneline --graph 
+git cherry-pick e6b6 
+
+15.
