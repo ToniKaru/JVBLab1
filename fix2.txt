@@ -52,3 +52,9 @@ git log --all --oneline --graph
 git cherry-pick e6b6 
 
 15.
+git add .
+git commit -m "Update fix2.txt with all commands used so far"
+
+16.
+git remote add origin https://github.com/ToniKaru/JVBLab1.git 
+git push --all origin 
